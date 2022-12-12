@@ -37,7 +37,7 @@ def main():
     clock = Clock(23, 59, 58)
     while True:
         print(clock.show())
-        sleep(1)
+        sleep(2)
         clock.run()
 
 
